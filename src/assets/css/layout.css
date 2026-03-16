@@ -1,0 +1,98 @@
+.container {
+  width: min(100% - 2.25rem, var(--container-max));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: clamp(3rem, 6vw, 5rem);
+}
+
+.section-head {
+  max-width: 720px;
+  margin-bottom: var(--space-xl);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: var(--space-xs);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(14, 139, 125, 0.1);
+  color: var(--color-accent-strong);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: clamp(1.05rem, 2.1vw, 1.25rem);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-primary));
+  transition: transform var(--transition-base), filter var(--transition-base), border-color var(--transition-base);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.97);
+}
+
+.button--ghost {
+  color: var(--color-primary);
+  background: #fff;
+  border-color: var(--color-border);
+}
+
+.button--sm {
+  padding: 0.56rem 0.95rem;
+  font-size: 0.9rem;
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.inner-hero {
+  padding-top: calc(5.5rem + var(--space-lg));
+  background: linear-gradient(180deg, rgba(11, 60, 93, 0.07), rgba(11, 60, 93, 0.01));
+}
+
+.inner-hero .lead {
+  max-width: 70ch;
+}
+
+.legal-content .prose {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+}
+
+.legal-content h2 {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: min(100% - 1.4rem, var(--container-max));
+  }
+
+  .section-head {
+    margin-bottom: var(--space-lg);
+  }
+}

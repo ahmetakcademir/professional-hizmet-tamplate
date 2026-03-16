@@ -1,0 +1,35 @@
+:root {
+  --font-heading: "Fraunces", "Times New Roman", serif;
+  --font-body: "Manrope", "Segoe UI", Tahoma, sans-serif;
+
+  --color-bg: #f4f7fb;
+  --color-surface: #ffffff;
+  --color-surface-alt: #eaf1fb;
+  --color-primary: #0b3c5d;
+  --color-primary-strong: #082d47;
+  --color-accent: #0e8b7d;
+  --color-accent-strong: #0a6f64;
+  --color-ink: #14293d;
+  --color-ink-soft: #38516a;
+  --color-border: #d6e1ee;
+  --color-success: #198754;
+  --color-danger: #b42318;
+
+  --shadow-soft: 0 10px 30px rgba(11, 60, 93, 0.1);
+  --shadow-focus: 0 0 0 3px rgba(14, 139, 125, 0.25);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.2rem;
+
+  --space-2xs: 0.375rem;
+  --space-xs: 0.625rem;
+  --space-sm: 0.875rem;
+  --space-md: 1.125rem;
+  --space-lg: 1.75rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+
+  --container-max: 1120px;
+  --transition-base: 220ms ease;
+}

@@ -1,0 +1,20 @@
+<section class="section about" id="about">
+  <div class="container about__grid">
+    <div class="about__content">
+      <p class="eyebrow" data-bind="about.eyebrow">Uzman Ekip</p>
+      <h2 data-bind="about.title">Deneyim ve Etik Yaklasim Bir Arada</h2>
+      <p data-bind="about.description">Her dosyayi ve her danisani ozel bir stratejiyle ele aliyoruz.</p>
+      <ul class="about__list" data-repeat="about.bullets">
+        <template data-repeat-template>
+          <li data-bind="text">Alaninda uzman ekip</li>
+        </template>
+      </ul>
+      <a class="button button--ghost" data-whatsapp-link href="https://wa.me/905555555555" target="_blank" rel="noopener">Uzmanla Gorusun</a>
+    </div>
+    <aside class="about__card">
+      <p class="about__card-label" data-bind="about.expertLabel">Kidemli Uzman</p>
+      <h3 data-bind="about.expertName">Dr. Ornek Uzman</h3>
+      <p data-bind="about.expertSummary">15+ yillik saha deneyimi ile kurumsal ve bireysel ihtiyaclara ozel cozumler gelistirir.</p>
+    </aside>
+  </div>
+</section>

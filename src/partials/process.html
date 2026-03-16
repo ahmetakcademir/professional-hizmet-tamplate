@@ -1,0 +1,19 @@
+<section class="section process" id="process">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow" data-bind="processMeta.eyebrow">Nasil Calisiyoruz?</p>
+      <h2 data-bind="processMeta.title">Planli ve Seffaf Bir Is Akisi</h2>
+    </header>
+    <ol class="process__list" data-repeat="process">
+      <template data-repeat-template>
+        <li class="process-step">
+          <span class="process-step__number" data-bind="step">1</span>
+          <div>
+            <h3 data-bind="title">Kesif Gorusmesi</h3>
+            <p data-bind="description">Ihtiyacinizi netlestirip beklentileri hizalariz.</p>
+          </div>
+        </li>
+      </template>
+    </ol>
+  </div>
+</section>

@@ -1,0 +1,11 @@
+{
+  "name": "professional-service-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "validate": "node tools/validate-content.mjs",
+    "build": "node tools/build.mjs",
+    "build:full": "node tools/validate-content.mjs && node tools/build.mjs",
+    "qa": "node tools/qa-check.mjs"
+  }
+}

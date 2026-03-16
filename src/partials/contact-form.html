@@ -1,0 +1,41 @@
+<section class="section contact" id="contact">
+  <div class="container contact__grid">
+    <div class="contact__content">
+      <p class="eyebrow" data-bind="contact.eyebrow">Iletisim</p>
+      <h2 data-bind="contact.heading">Kisa Bir Formla Hizlica Baslayin</h2>
+      <p data-bind="contact.description">Formu gonderdiginizde bilgileriniz mesaj olarak hazirlanir ve WhatsApp sohbetine yonlendirilirsiniz.</p>
+
+      <ul class="contact__channels">
+        <li>
+          <strong>Telefon</strong>
+          <a data-bind="contact.channels.phone" data-bind-href="contact.channels.phoneHref" href="tel:+905550000000">+90 555 000 00 00</a>
+        </li>
+        <li>
+          <strong>E-posta</strong>
+          <a data-bind="contact.channels.email" data-bind-href="contact.channels.emailHref" href="mailto:merhaba@example.com">merhaba@example.com</a>
+        </li>
+        <li>
+          <strong>Adres</strong>
+          <span data-bind="contact.channels.address">Istanbul, Turkiye</span>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div id="contactFields" class="form-grid"></div>
+      <p class="form-note">Bu form e-posta gondermez. Bilgileriniz WhatsApp mesaji olarak hazirlanir.</p>
+      <button class="button" type="submit" data-bind="contact.form.submitLabel">WhatsApp'a Gonder</button>
+      <p class="form-feedback" id="contactFeedback" role="status" aria-live="polite"></p>
+      <p class="form-fallback" id="contactFallback" hidden>
+        Yonlendirme engellenirse bu linki kullanin:
+        <a id="contactFallbackLink" href="https://wa.me/905555555555" target="_blank" rel="noopener">WhatsApp Sohbetini Ac</a>
+      </p>
+      <noscript>
+        <p class="form-fallback">
+          JavaScript kapali. Direkt iletisim icin:
+          <a href="https://wa.me/905555555555" target="_blank" rel="noopener">WhatsApp ile Yazin</a>
+        </p>
+      </noscript>
+    </form>
+  </div>
+</section>

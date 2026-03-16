@@ -1,0 +1,28 @@
+<section class="section hero" id="hero">
+  <div class="container hero__grid">
+    <div class="hero__content">
+      <p class="eyebrow" data-bind="hero.eyebrow">Uzman Profesyonel Hizmet</p>
+      <h1 data-bind="hero.headline">Karmasik Surecleri Net ve Guvenilir Sekilde Yonetiyoruz</h1>
+      <p class="lead" data-bind="hero.subheadline">Hukuk, danismanlik, saglik ve uzman hizmet alanlari icin olculebilir sonuc odakli yaklasim.</p>
+      <div class="hero__actions">
+        <a class="button" data-bind="hero.primaryCta.text" data-bind-href="hero.primaryCta.href" href="#contact">Hemen Baslayin</a>
+        <a class="button button--ghost" data-bind="hero.secondaryCta.text" data-bind-href="hero.secondaryCta.href" href="#services">Hizmetleri Gorun</a>
+      </div>
+    </div>
+
+    <aside class="hero__panel">
+      <p class="hero__panel-kicker">Hizli degerlendirme</p>
+      <h2>One Cikan Guclu Yonler</h2>
+      <p class="hero__panel-intro">Ilk gorusmede ihtiyac ve hedefleri netlestirip en uygun yol haritasini sunariz.</p>
+      <div class="hero__highlights" data-repeat="hero.highlights">
+        <template data-repeat-template>
+          <article class="highlight-card">
+            <strong data-bind="value">10+ Yil</strong>
+            <span data-bind="label">Sektor Deneyimi</span>
+          </article>
+        </template>
+      </div>
+      <p class="hero__panel-note">Her yeni talebe planli ve hizli donus sureci uygulanir.</p>
+    </aside>
+  </div>
+</section>

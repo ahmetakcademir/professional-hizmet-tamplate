@@ -1,0 +1,23 @@
+<section class="section faq" id="faq">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow" data-bind="faqMeta.eyebrow">Sik Sorulan Sorular</p>
+      <h2 data-bind="faqMeta.title">Karar Vermeden Once En Cok Sorulanlar</h2>
+    </header>
+    <div class="faq__list" data-repeat="faq">
+      <template data-repeat-template>
+        <article class="faq-item">
+          <h3>
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span data-bind="question">Ilk gorusme ucretli mi?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="faq-answer" hidden>
+            <p data-bind="answer">Ilk gorusme surecin netlesmesi icin on bilgilendirme icerir.</p>
+          </div>
+        </article>
+      </template>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,109 @@
+.hero {
+  padding-top: clamp(6.2rem, 10vw, 8rem);
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+}
+
+.hero__panel {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(165deg, #0b3c5d, #13557f);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: clamp(1.3rem, 2.4vw, 1.9rem);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 16px 38px rgba(8, 45, 71, 0.24);
+}
+
+.hero__panel::after {
+  content: "";
+  position: absolute;
+  inset: auto -3rem -3.5rem auto;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
+
+.hero__panel-kicker {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.45rem;
+  padding: 0.24rem 0.62rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  color: #d8eef9;
+  font-weight: 700;
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.hero__panel h2 {
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-size: clamp(1.28rem, 2vw, 1.52rem);
+}
+
+.hero__panel-intro {
+  margin-bottom: var(--space-md);
+  color: rgba(240, 247, 255, 0.88);
+  font-size: 0.96rem;
+  max-width: 31ch;
+}
+
+.hero__highlights {
+  display: grid;
+  gap: 0.62rem;
+}
+
+.highlight-card {
+  position: relative;
+  display: grid;
+  gap: 0.16rem;
+  padding: 0.82rem 0.86rem;
+  border-radius: 0.78rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(150deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.08));
+}
+
+.highlight-card strong {
+  display: block;
+  font-size: 1.22rem;
+  letter-spacing: 0.01em;
+}
+
+.highlight-card span {
+  font-size: 0.87rem;
+  color: rgba(236, 245, 255, 0.9);
+}
+
+.hero__panel-note {
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  color: rgba(240, 247, 255, 0.82);
+  font-size: 0.83rem;
+}
+
+@media (max-width: 900px) {
+  .hero__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__panel {
+    max-width: 34rem;
+  }
+}

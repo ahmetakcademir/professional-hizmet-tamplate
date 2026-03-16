@@ -1,0 +1,19 @@
+<section class="section services" id="services">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow" data-bind="servicesMeta.eyebrow">Hizmetler</p>
+      <h2 data-bind="servicesMeta.title">Ihtiyaciniza Gore Tasarlanan Hizmet Paketleri</h2>
+      <p data-bind="servicesMeta.description">Seffaf kapsam, olculebilir cikti ve duzenli raporlama.</p>
+    </header>
+    <div class="services__grid" data-repeat="services">
+      <template data-repeat-template>
+        <article class="service-card" data-bind-id="id">
+          <span class="service-card__index" data-bind="code">01</span>
+          <h3 data-bind="title">Stratejik Danismanlik</h3>
+          <p data-bind="description">Mevcut durum analizi ve hedef odakli yol haritasi.</p>
+          <a class="service-card__link" data-bind-href="link" href="services.html">Detayi Incele</a>
+        </article>
+      </template>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+<section class="section testimonials" id="testimonials">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow" data-bind="testimonialsMeta.eyebrow">Musteri Gorusleri</p>
+      <h2 data-bind="testimonialsMeta.title">Guvenilir Sonuclar, Gercek Deneyimler</h2>
+    </header>
+
+    <div class="testimonials-slider" data-testimonials-slider>
+      <button class="slider-control" type="button" data-slider-prev aria-label="Onceki Yorum">
+        <span aria-hidden="true">&#8592;</span>
+      </button>
+
+      <div class="testimonials-track" data-repeat="testimonials">
+        <template data-repeat-template>
+          <article class="testimonial-card">
+            <p class="testimonial-card__quote" data-bind="quote">Ekibin yaklasimi hem hizli hem cok netti.</p>
+            <p class="testimonial-card__name" data-bind="name">Ayse Yilmaz</p>
+            <p class="testimonial-card__role" data-bind="role">Kurucu Ortak</p>
+          </article>
+        </template>
+      </div>
+
+      <button class="slider-control" type="button" data-slider-next aria-label="Sonraki Yorum">
+        <span aria-hidden="true">&#8594;</span>
+      </button>
+    </div>
+  </div>
+</section>

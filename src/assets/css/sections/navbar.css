@@ -1,0 +1,207 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  backdrop-filter: blur(12px);
+  background: rgba(244, 247, 251, 0.9);
+  border-bottom: 1px solid rgba(214, 225, 238, 0.8);
+}
+
+.nav-shell {
+  min-height: 5.25rem;
+  padding-block: 0.32rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.05rem;
+}
+
+.brand {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  justify-content: center;
+  line-height: 1;
+}
+
+.brand__name {
+  color: var(--color-primary-strong);
+  font-family: var(--font-heading);
+  font-size: 1.38rem;
+  font-weight: 700;
+  letter-spacing: 0.012em;
+  line-height: 1.05;
+}
+
+.brand__tagline {
+  font-size: 0.79rem;
+  color: var(--color-ink-soft);
+  line-height: 1.22;
+  letter-spacing: 0.01em;
+  opacity: 0.95;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.88rem;
+  line-height: 1;
+}
+
+.nav-menu a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.15rem;
+  padding: 0.28rem 0.46rem;
+  border-radius: 0.5rem;
+  font-weight: 620;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  color: var(--color-primary);
+  transition:
+    color var(--transition-base),
+    background-color var(--transition-base),
+    transform var(--transition-base);
+}
+
+.nav-menu a:hover {
+  color: var(--color-primary-strong);
+  background: rgba(11, 60, 93, 0.07);
+  transform: translateY(-1px);
+}
+
+.nav-menu .button {
+  margin-left: 0.24rem;
+  min-height: 2.18rem;
+  padding: 0.46rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 680;
+  box-shadow: 0 7px 16px rgba(11, 60, 93, 0.17);
+}
+
+.nav-menu .button:hover {
+  background: linear-gradient(135deg, var(--color-accent-strong), var(--color-primary));
+}
+
+.button--wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.nav-menu .button--wa {
+  color: #ffffff;
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  border: 1px solid rgba(18, 140, 126, 0.88);
+  box-shadow: 0 9px 20px rgba(18, 140, 126, 0.32);
+}
+
+.nav-menu .button--wa:hover {
+  color: #ffffff;
+  background: linear-gradient(135deg, #2fe071, #169886);
+  box-shadow: 0 12px 24px rgba(18, 140, 126, 0.36);
+}
+
+.nav-menu .button--wa:focus-visible {
+  box-shadow:
+    0 0 0 3px rgba(37, 211, 102, 0.26),
+    0 10px 22px rgba(18, 140, 126, 0.34);
+}
+
+.wa-inline-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1;
+}
+
+.wa-inline-text {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.wa-icon {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.65rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.nav-toggle span:not(.sr-only) {
+  width: 1.1rem;
+  height: 2px;
+  margin-inline: auto;
+  background: var(--color-primary);
+}
+
+.site-header.is-scrolled {
+  box-shadow: 0 8px 20px rgba(8, 45, 71, 0.11);
+}
+
+@media (max-width: 960px) {
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: calc(100% + 0.6rem);
+    right: 1rem;
+    min-width: 234px;
+    padding: 0.92rem;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.22rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background: #fff;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .nav-menu a {
+    justify-content: flex-start;
+    min-height: 0;
+    padding: 0.56rem 0.66rem;
+    font-size: 0.95rem;
+    transform: none;
+  }
+
+  .nav-menu .button {
+    margin-left: 0;
+    margin-top: 0.22rem;
+    justify-content: center;
+  }
+
+  .button--wa {
+    justify-content: center;
+  }
+
+  .nav-menu.is-open {
+    display: flex;
+  }
+
+  .brand__tagline {
+    display: none;
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "brand": {
+    "name": "Atlas Professional Services",
+    "tagline": "Guven odakli uzman hizmet yaklasimi"
+  },
+  "seo": {
+    "siteUrl": "https://example.com",
+    "defaultImage": "assets/images/og-default.jpg",
+    "organization": {
+      "name": "Atlas Professional Services",
+      "telephone": "+90 212 000 00 00",
+      "address": "Levent, Istanbul, Turkiye"
+    },
+    "pages": {
+      "home": {
+        "title": "Atlas Professional Services | Guven Veren Uzman Hizmet",
+        "description": "Hukuk, danismanlik, klinik ve uzman hizmet alanlari icin guven veren kurumsal web sitesi sablonu.",
+        "ogTitle": "Atlas Professional Services",
+        "ogDescription": "Profesyonel hizmet sunan isletmeler icin donusum odakli web sitesi altyapisi.",
+        "path": "/"
+      },
+      "about": {
+        "title": "Hakkimizda | Atlas Professional Services",
+        "description": "Ekibimizin uzmanligi, etik yaklasimi ve olculebilir basari hikayeleri.",
+        "ogTitle": "Hakkimizda",
+        "ogDescription": "Uzman kadromuzu ve calisma prensiplerimizi inceleyin.",
+        "path": "/about.html"
+      },
+      "services": {
+        "title": "Hizmetler | Atlas Professional Services",
+        "description": "Ihtiyaca uygun kapsamli profesyonel hizmet paketleri.",
+        "ogTitle": "Hizmetler",
+        "ogDescription": "Isletmeler ve bireyler icin tasarlanan hizmet modelleri.",
+        "path": "/services.html"
+      },
+      "contact": {
+        "title": "Iletisim | Atlas Professional Services",
+        "description": "Formu doldurun, bilgilerinizi WhatsApp sohbetine otomatik aktaralim.",
+        "ogTitle": "Iletisim",
+        "ogDescription": "Hizli ve kolay WhatsApp iletisim akisiyla bize ulasin.",
+        "path": "/contact.html"
+      },
+      "privacy": {
+        "title": "Gizlilik Politikasi | Atlas Professional Services",
+        "description": "Kisisel veri isleme esaslari ve gizlilik prensipleri.",
+        "path": "/privacy.html"
+      },
+      "terms": {
+        "title": "Kullanim Kosullari | Atlas Professional Services",
+        "description": "Web sitesi kullanimina iliskin genel hukuki kosullar.",
+        "path": "/terms.html"
+      }
+    }
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "Hakkimizda",
+      "title": "Uzmanligimizla Guven Insa Ediyoruz",
+      "description": "Her danisan icin net, olculebilir ve etik bir hizmet sureci kurguluyoruz."
+    },
+    "services": {
+      "eyebrow": "Hizmetler",
+      "title": "Ihtiyaciniza Uygun Hizmet Paketleri",
+      "description": "Onceliklerinize gore uyarlanan esnek ve seffaf cozum modeli."
+    },
+    "contact": {
+      "eyebrow": "Iletisim",
+      "title": "Hizlica Goruselim",
+      "description": "Formu gonderdiginizde bilgilerinizle birlikte WhatsApp konusmasi acilir."
+    },
+    "privacy": {
+      "eyebrow": "Yasal",
+      "title": "Gizlilik Politikasi",
+      "description": "Kisisel verilerin korunmasina iliskin temel prensiplerimiz."
+    },
+    "terms": {
+      "eyebrow": "Yasal",
+      "title": "Kullanim Kosullari",
+      "description": "Sitemizi kullanirken gecerli olan temel kosullar."
+    }
+  },
+  "hero": {
+    "eyebrow": "Uzman Profesyonel Hizmet",
+    "headline": "Karmasik Surecleri Net ve Guvenilir Sekilde Yonetiyoruz",
+    "subheadline": "Hukuk, danismanlik, saglik ve uzman hizmet alanlari icin olculebilir sonuc odakli yaklasim.",
+    "primaryCta": {
+      "text": "Hemen Baslayin",
+      "href": "#contact"
+    },
+    "secondaryCta": {
+      "text": "Hizmetleri Gorun",
+      "href": "#services"
+    },
+    "highlights": [
+      {
+        "value": "10+ Yil",
+        "label": "Sektor Deneyimi"
+      },
+      {
+        "value": "1 Saat",
+        "label": "Icinde Ilk Donus"
+      },
+      {
+        "value": "%94",
+        "label": "Danisan Memnuniyeti"
+      }
+    ]
+  },
+  "trustStats": [
+    {
+      "value": "1.200+",
+      "label": "Tamamlanan Proje"
+    },
+    {
+      "value": "350+",
+      "label": "Aktif Kurumsal Musteri"
+    },
+    {
+      "value": "24/7",
+      "label": "Planli Iletisim Takvimi"
+    },
+    {
+      "value": "4.9/5",
+      "label": "Ortalama Hizmet Puani"
+    }
+  ],
+  "about": {
+    "eyebrow": "Uzman Ekip",
+    "title": "Deneyim ve Etik Yaklasim Bir Arada",
+    "description": "Her dosyayi ve her danisani ozel bir stratejiyle ele aliyor, sureci yalnizca sonuc degil guven acisindan da yonetiyoruz.",
+    "bullets": [
+      {
+        "text": "Alaninda uzman, disiplinler arasi kadro"
+      },
+      {
+        "text": "Duzenli raporlama ve seffaf ilerleme"
+      },
+      {
+        "text": "Musteri odakli, ulasilabilir iletisim modeli"
+      }
+    ],
+    "expertLabel": "Kidemli Uzman",
+    "expertName": "Dr. Selin Aydin",
+    "expertSummary": "15+ yillik saha deneyimiyle kurumsal ve bireysel ihtiyaclara ozel cozumler gelistirir."
+  },
+  "servicesMeta": {
+    "eyebrow": "Hizmetler",
+    "title": "Ihtiyaciniza Gore Tasarlanan Hizmet Paketleri",
+    "description": "Seffaf kapsam, olculebilir cikti ve duzenli raporlama."
+  },
+  "services": [
+    {
+      "id": "service-strategy",
+      "code": "01",
+      "title": "Stratejik Danismanlik",
+      "description": "Mevcut durum analizi ve hedef odakli yol haritasi olusturma.",
+      "link": "services.html#service-strategy"
+    },
+    {
+      "id": "service-operations",
+      "code": "02",
+      "title": "Surec ve Operasyon Tasarimi",
+      "description": "Hizmet sureclerini standardize ederek olceklendirilebilir yapi kurma.",
+      "link": "services.html#service-operations"
+    },
+    {
+      "id": "service-compliance",
+      "code": "03",
+      "title": "Uyum ve Risk Yonetimi",
+      "description": "Yasal ve operasyonel riskleri azaltan uygulama plani gelistirme.",
+      "link": "services.html#service-compliance"
+    },
+    {
+      "id": "service-training",
+      "code": "04",
+      "title": "Ekip Egitimi ve Mentorluk",
+      "description": "Saha uygulamasina donuk egitim ve yonetici mentorlugu.",
+      "link": "services.html#service-training"
+    },
+    {
+      "id": "service-reporting",
+      "code": "05",
+      "title": "Performans Raporlama",
+      "description": "Aylik KPI takibi ve karar destek raporlariyla surec yonetimi.",
+      "link": "services.html#service-reporting"
+    },
+    {
+      "id": "service-advisory",
+      "code": "06",
+      "title": "Ozel Vaka Danismanligi",
+      "description": "Yuksek oncelikli, hassas ve karmasik vakalar icin uzman destek.",
+      "link": "services.html#service-advisory"
+    }
+  ],
+  "processMeta": {
+    "eyebrow": "Nasil Calisiyoruz?",
+    "title": "Planli ve Seffaf Bir Is Akisi"
+  },
+  "process": [
+    {
+      "step": "1",
+      "title": "Kesif Gorusmesi",
+      "description": "Ihtiyacinizi ve onceliklerinizi netlestiririz."
+    },
+    {
+      "step": "2",
+      "title": "Strateji Plani",
+      "description": "Kapsam, sure ve sorumluluklari yazili olarak sunariz."
+    },
+    {
+      "step": "3",
+      "title": "Uygulama ve Takip",
+      "description": "Planlanan adimlari duzenli geri bildirimle uygulariz."
+    },
+    {
+      "step": "4",
+      "title": "Raporlama ve Optimizasyon",
+      "description": "Sonuclari olcer, sureci veriyle gelistiririz."
+    }
+  ],
+  "testimonialsMeta": {
+    "eyebrow": "Musteri Gorusleri",
+    "title": "Guvenilir Sonuclar, Gercek Deneyimler"
+  },
+  "testimonials": [
+    {
+      "quote": "Surec boyunca her adim acikca anlatildi. Hizmet kalitesi ve iletisim ritmi oldukca guven vericiydi.",
+      "name": "Aylin K.",
+      "role": "Kurucu Ortak, Finans Danismanlik"
+    },
+    {
+      "quote": "Ilk haftadan itibaren net bir yol haritasi gorduk. Donusler hizli ve cozum odakliydi.",
+      "name": "Mert T.",
+      "role": "Yonetici, Ozel Klinik"
+    },
+    {
+      "quote": "Ozellikle raporlama kalitesi karar alma surecimizi cok hizlandirdi. Uzun vadeli bir is ortakligi kurduk.",
+      "name": "Ece S.",
+      "role": "Direktor, Kreatif Ajans"
+    }
+  ],
+  "faqMeta": {
+    "eyebrow": "Sik Sorulan Sorular",
+    "title": "Karar Vermeden Once En Cok Sorulanlar"
+  },
+  "faq": [
+    {
+      "question": "Ilk gorusme ucretli mi?",
+      "answer": "Ilk gorusme kapsam netlestirme odaklidir ve bilgilendirme amaciyla sunulur."
+    },
+    {
+      "question": "Surec ne kadar suruyor?",
+      "answer": "Hizmet kapsamina gore degisir. Kesif sonrasinda tahmini takvim yazili olarak paylasilir."
+    },
+    {
+      "question": "Sadece kurumsal musterilerle mi calisiyorsunuz?",
+      "answer": "Hayir. Hem bireysel hem kurumsal talepler icin uygun hizmet paketleri sunuyoruz."
+    },
+    {
+      "question": "Raporlama sikligi nedir?",
+      "answer": "Standart modelde haftalik veya aylik raporlama vardir. Ihtiyaca gore ozel takvim belirlenebilir."
+    }
+  ],
+  "contact": {
+    "eyebrow": "Iletisim",
+    "heading": "Kisa Bir Formla Hizlica Baslayin",
+    "description": "Formu doldurduktan sonra bilgileriniz WhatsApp mesajina donusturulur ve sohbet ekranina yonlendirilirsiniz.",
+    "successMessage": "WhatsApp konusmasi aciliyor...",
+    "errorMessage": "Lutfen zorunlu alanlari kontrol edin.",
+    "channels": {
+      "phone": "+90 212 000 00 00",
+      "phoneHref": "tel:+902120000000",
+      "email": "merhaba@atlas-service.com",
+      "emailHref": "mailto:merhaba@atlas-service.com",
+      "address": "Levent, Istanbul, Turkiye"
+    },
+    "whatsapp": {
+      "number": "905555555555",
+      "floatButtonText": "WhatsApp Destek",
+      "quickMessage": "Merhaba, hizmetleriniz hakkinda bilgi almak istiyorum.",
+      "messageTemplate": "Merhaba, ben {{fullName}}. {{service}} hizmetiyle ilgileniyorum. Musait oldugunuzda bana donus yapar misiniz?"
+    },
+    "form": {
+      "submitLabel": "WhatsApp'a Gonder",
+      "fields": [
+        {
+          "name": "fullName",
+          "label": "Ad Soyad",
+          "type": "text",
+          "required": true,
+          "placeholder": "Adiniz Soyadiniz",
+          "autocomplete": "name",
+          "order": 1
+        },
+        {
+          "name": "phone",
+          "label": "Telefon",
+          "type": "tel",
+          "required": true,
+          "placeholder": "05xx xxx xx xx",
+          "autocomplete": "tel",
+          "order": 2
+        },
+        {
+          "name": "email",
+          "label": "E-posta",
+          "type": "email",
+          "required": false,
+          "placeholder": "ornek@mail.com",
+          "autocomplete": "email",
+          "order": 3
+        },
+        {
+          "name": "service",
+          "label": "Ilgilendiginiz Hizmet",
+          "type": "select",
+          "required": true,
+          "placeholder": "Hizmet secin",
+          "options": [
+            "Stratejik Danismanlik",
+            "Surec ve Operasyon Tasarimi",
+            "Uyum ve Risk Yonetimi",
+            "Ekip Egitimi ve Mentorluk",
+            "Performans Raporlama",
+            "Ozel Vaka Danismanligi"
+          ],
+          "order": 4
+        },
+        {
+          "name": "message",
+          "label": "Kisa Not",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Ihtiyacinizi kisaca yazin...",
+          "fullWidth": true,
+          "rows": 5,
+          "order": 5
+        }
+      ]
+    }
+  },
+  "footer": {
+    "description": "Profesyonel hizmet sureclerini guven ve netlik ile yonetiyoruz. Hizli iletisim, duzenli raporlama ve olculebilir sonuc odakli yaklasim sunuyoruz.",
+    "menu": [
+      {
+        "text": "Ana Sayfa",
+        "href": "index.html#hero"
+      },
+      {
+        "text": "Hizmetler",
+        "href": "index.html#services"
+      },
+      {
+        "text": "Surec",
+        "href": "index.html#process"
+      },
+      {
+        "text": "Iletisim",
+        "href": "contact.html"
+      }
+    ],
+    "legal": [
+      {
+        "text": "Gizlilik Politikasi",
+        "href": "privacy.html"
+      },
+      {
+        "text": "Kullanim Kosullari",
+        "href": "terms.html"
+      }
+    ],
+    "social": [
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "text": "Instagram",
+        "href": "https://www.instagram.com",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ]
+  }
+}
+
